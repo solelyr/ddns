@@ -31,9 +31,6 @@ ENV/
 .coverage
 htmlcov/
 
-# Local scratch scripts containing real credentials
-test.py
-
 # IDE / editor metadata
 .idea/
 *.iml
