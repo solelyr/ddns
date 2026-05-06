@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+
+  ddns:
+    image: solelyrzz/ddns-cloudflare:latest
+    restart: always
+
+    volumes:
+      - ./config.json:/app/config.json
+      - ./logs:/app/logs
+
+    environment:
+      - TZ=Asia/Shanghai

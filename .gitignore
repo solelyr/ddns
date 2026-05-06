@@ -1,0 +1,44 @@
+# Runtime secrets and local configuration
+config.json
+config.*.json
+!config.example.json
+.env
+.env.*
+!.env.example
+
+# Runtime state and logs
+logs/
+*.log
+*.log.*
+ddns.lock
+
+# PyInstaller / build artifacts
+build/
+dist/
+*.manifest
+*.spec.log
+
+# Python cache, virtual environments, and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local scratch scripts containing real credentials
+test.py
+
+# IDE / editor metadata
+.idea/
+*.iml
+.vscode/
+
+# OS metadata
+.DS_Store
+Thumbs.db

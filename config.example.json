@@ -1,0 +1,9 @@
+{
+  "email": "your-cloudflare-account@example.com",
+  "api_key": "your-cloudflare-api-token",
+  "zone_id": "your-cloudflare-zone-id",
+  "domain": "example.com",
+  "subdomain": "home",
+  "check_ip_url": "https://api-ipv4.ip.sb/ip",
+  "test_ip": "8.8.8.8"
+}
